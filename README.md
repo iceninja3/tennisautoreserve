@@ -10,3 +10,10 @@ Ideas to bypass 2FA:
 - Save the cookies and load a new browser window to avoid manually logging in again?
 - Send the code to an email address/SMS and automate reading/inputting that into the website?
 - Generate the code yourself with the secret key (although you'd put yourself at significant security risk by doing this lol)
+
+
+Ooooh I finally maybe understand an actually useful way to use gitignore. Put the cookie files and security specific stuff in the gitignore file (and maybe also the documentation stuff?)
+
+Figure out how to use gitignore:
+- [Atlassian Guide](https://www.atlassian.com/git/tutorials/saving-changes/gitignore)
+- [Git official documentation](https://git-scm.com/docs/gitignore) (quite clean)
