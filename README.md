@@ -1,4 +1,4 @@
-Windows: Use Windows Task Scheduler
+Windows: Use Windows Task Scheduler  
 Linux/Mac: Use [CronJob](https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/#:~:text=CronJob%20is%20meant%20for%20performing,CronJobs%20have%20limitations%20and%20idiosyncrasies.)
 
 Probably use Selenium to access the [website](https://secure.recreation.ucla.edu/booking) and select the buttons (the easy part)
