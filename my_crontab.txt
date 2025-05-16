@@ -1,0 +1,1 @@
+0 59 5 ? * THU * python3 -m [insert absolute path of bash script that calls the script here. absolute paths start with a slash]

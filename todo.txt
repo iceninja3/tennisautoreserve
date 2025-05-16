@@ -1,0 +1,29 @@
+## Starting
+
+### Actual Script
+- Go to URL
+    - Install WebDriver (probably Chrome Web Driver?)
+    - Open tab
+    - Go to tennis site url
+- Figure out how to get past 2FA
+    - Saving the cookies file seems like the most promising approach at the moment
+- Select Elements
+    - Select SCRC Tennis Courts
+    - Navigate to Saturday Element (or Sunday depending?)
+    - Check 6pm element
+        - if avaiable --> book it
+        - if not available -> move on to the next SCRC court (like court 3) and check
+        - check for courts 2 to 6 (5 courts total)
+- Test the script with different days first -> then test with Cron Jobs scheduling
+
+
+## Partially Done:
+
+### Crontab Scheduling
+- Make the bash script to call script.py
+- Put the name of the bash script in the my_crontab.txt file
+- Copy my_crontab.txt file into the main crontab file by simply running `crontab my_crontab.txt`
+
+## Done:
+- Made selenium test file to check if selenium is installed or not on a user's computer
+- 
